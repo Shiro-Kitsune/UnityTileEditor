@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004a5a138efcf2144b9ac88281bdd966, type: 3}
+  m_Name: Tilemap
+  m_EditorClassIdentifier: 
+  nextLayerId: 2
+  layerNames:
+  - Layer0
+  - Layer1
+  layers: 0000000001000000
+  MapRepresentation:
+    keys: 0000000001000000
+    values:
+    - Cells: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - Cells: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  SpriteSheetName: Assets/Game/Resources/bomb_party_v3.png
+  Sprites:
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.16666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.33333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.5
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.6666667
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.375
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  - DrawArea:
+      serializedVersion: 2
+      x: 0.875
+      y: 0.8333334
+      width: 0.125
+      height: 0.16666667
+  Tiles:
+    keys: 0000000001000000
+    values:
+    - TileType: 0
+      Id: 0
+      SpriteId: 41
+      Components: []
+    - TileType: 1
+      Id: 1
+      SpriteId: 26
+      Components:
+      - {fileID: 114890671521107994}
+      - {fileID: 114759735328986554}
+      - {fileID: 114889676127956818}
+  nextTileId: 2
+--- !u!114 &114759735328986554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39d53e0f6049f34ea6d99557af6a843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114889676127956818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3536a7b0425f6ba4996dbced870f6387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsTrigger: 0
+--- !u!114 &114890671521107994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd30a881521b1694b9eb5807d188804b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lives: 5
